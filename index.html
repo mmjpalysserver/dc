@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord-like Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Login</h2>
+  <input id="username" placeholder="Enter username">
+  <button onclick="login()">Login</button>
+
+  <div id="chat" style="display:none;">
+    <div id="messages"></div>
+    <input id="msg" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="startVoice()">Start Voice</button>
+  </div>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
