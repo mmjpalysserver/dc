@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2c2f33;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+#chat {
+  margin-top: 20px;
+}
+#messages {
+  background: #36393f;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+}
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  background: #7289da;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
